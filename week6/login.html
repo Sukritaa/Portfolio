@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<title>Page Title</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+	<link href="https://fonts.google.com/specimen/Roboto" rel="stylesheet" type="text/css">
+	<script src='login.js'></script>	
+</head>
+<body class="class-for-login">
+	<form name="myLogin" id = "myLogin" >
+		<!--<fieldset>-->
+			<legend>Log In</legend>
+			<div class="inform-box">
+				<div class="input-username">
+					<p class="heading-username">Username: </p>			
+						<div class="box-username">
+							<input type="text" name="username" id="username" required>
+							<br>
+						</div>
+				</div>
+				<div class="input-Password">
+					<p class="heading-Password">Password:  </p>			
+					<div class="box-Password">
+					<input type="password" name="password" id="password" required>
+					<br>
+					</div>
+					</div>				
+				<br>
+				<input type="submit" value="Login" id="Login">
+				<input type="reset" value="Clear" id="Clear">
+				<br>
+				<form name="regis" action="register.html">
+				<div class="Register-login">
+				Don’t have an account? <input type="button" value="Register" id="register" >
+				</div>	
+			</form>
+			</div>
+		<!--</fieldset>-->
+	</form>
+	
+</body>
+</html>

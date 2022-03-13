@@ -1,0 +1,126 @@
+.head{
+    display: flex;
+    flex-wrap: wrap;   
+}
+h1{
+    text-align: center;
+    font-family: Fredoka One;
+    font-size: 80px;
+    background-color: rgb(248, 235, 207);
+    border-radius: 129px;
+    padding-top: 140px;
+    padding-left: 70px;
+    padding-right: 90px;
+    padding-bottom: 100px;
+    width: auto;
+    margin-top: -110px;
+}
+body{
+    /*background-color: rgb(247, 234, 203);*/
+    background: rgb(224,134,82);
+background: linear-gradient(180deg, rgba(224,134,82,1) 0%, rgba(255,212,118,1) 100%);
+}
+span{
+    color: #525252;
+}
+.parent-ingredient{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: rgb(252, 182, 194);
+    border-radius: 100px;
+    text-align: left;
+    display: inline-block;
+    position: relative;
+  
+}
+.topic_ingredient{
+    font-family: Patrick Hand;
+    text-align: center;
+    background-color: rgb(247, 169, 169);    
+    width: 300px; 
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px, 20px,10px,20px;
+    border-radius: 14px;
+   
+}
+.detailingredient{
+    background-color: rgb(199, 223, 253);   
+    width: auto;
+    padding: 20px;
+    padding-right: 40px;
+    margin-left: 70px;
+    margin-right: 700px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    border-radius: 14px;   
+}
+.pic_1{
+    top: 87px;
+    right: 150px;
+    position: absolute;
+    max-height: 500px ;
+    border-radius: 17px;
+}
+
+/*--------------------*/
+
+.parent-step-1{
+    width: 100%;
+    background-color: rgb(227, 208, 243);
+    border-radius: 100px;
+    text-align: left;
+    position: relative;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.topic_Step{   
+    font-family: Patrick Hand;
+    text-align: center;
+    background-color: rgb(247, 169, 169);    
+    width: 350px; 
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px, 20px,10px,20px;
+    border-radius: 14px;
+}
+.parent-step-2{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center; 
+}
+
+.steporder{
+    position: relative;
+    border-radius: 20px;
+    background-color: tomato;
+    width: 250px;
+    height: 450px;
+    margin-left: 10px;
+    margin-right: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px;
+    text-align: center;
+}
+ 
+.step img{
+    height: 250px;  
+}
+
+/*--------------------*/
+
+a:link{
+	color: #58f8e3; 
+}  
+
+a:visited{
+	color: #f53333; 
+} 
+
+ a:hover{ 
+	color: #cd76f5; 
+} 

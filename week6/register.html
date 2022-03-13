@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<title>Page Title</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+	<script src='register.js'></script>
+</head>
+<body class="class-for-register">
+	<form name="myForm" id="myForm" action="login.html">
+		<!--<fieldset>-->
+			<legend>Register</legend>
+			<div class="info-regis-box">
+				<span>* require</span> <br>
+				<span id="errormsg"></span> <br>
+
+				<div class="firstname">
+				First name*: <br>
+					<input type="text" name="firstname" class="box-fn" required><br>			
+				</div>
+
+				Last name*: <br>
+					<input type="text" name="lastname" class="box-fn"><br>
+
+				<div class="gender">
+				Gender*: <br>
+				<input type="radio" name="gender" value="male" >Male
+				<input type="radio" name="gender" value="female" >Female
+				<input type="radio" name="gender" value="female" >Other	
+				</div>
+
+				Birthday*: <br>
+					<input type="date" name="bday" value="" class="box-fn"><br>
+
+				Email address*: <br>
+					<input type="email" name="email" class="box-fn"><br>
+
+				Username*: <br>
+					<input type="text" name="username" class="box-fn"><br>
+
+				Password*: <br>
+					<input type="password" name="password" class="box-fn" required><br>
+								
+				Retype Password*: <br>
+					<input type="password" name="password" class="box-fn" required>
+				
+				<br>
+				<div class="sub-re">	
+					<input type="submit" value="Register" id="but-regis">
+					<input type="reset" value="Reset" id="but-reset">
+				</div>	
+
+				</div>
+		<!--</fieldset>-->
+	</form>
+	<div class="soure">
+		soure : Background <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient()">liner-gradien</a>
+	</div> 
+</body>
+</html>

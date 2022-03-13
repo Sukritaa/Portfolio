@@ -1,0 +1,415 @@
+body{
+    background: linear-gradient(179.78deg, #ADD8FF 4.8%, #E2F1FF 51.81%, #757aff 99.8%);
+    font-family: Roboto;
+    margin: 0%
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 0%;
+}
+.navbar{
+    position: fixed;
+    display: grid;
+    grid-template-columns: 70% 15% 15%;
+    width: 100%;
+    font-size: 17px;
+    background-color: #E8FFFF;
+    padding: 10px;
+}
+.navcolor :hover{
+    background-color: #ccd3ff;
+}
+#navbar-name{
+    padding-left: 15%;
+}
+#navbar-Home{
+    text-align: center;
+}
+#navbar-project{
+    text-align: center;
+}
+a{
+    color: black;
+}
+a:link {
+    text-decoration: none;
+} 
+a:visited {
+    text-decoration: none;
+}  
+a:hover {
+    text-decoration: none;
+} 
+a:active {
+    text-decoration: none;
+}
+.profile{
+    grid-template-columns: 50% 50%;
+    background: linear-gradient( #e8ffff , #a3d0f7, #9fc5fd);
+    display: grid;
+    flex-wrap: wrap;
+    padding: 5% 5% 5% 3%;
+    border-radius: 10%;
+}
+#profile-pic {
+   text-align: center;
+}
+#profile-pic img{
+    width: 300px;
+    border-radius: 100%;
+}
+#profile-name{
+    text-align: center;
+    font-size: 40px;
+    font-family: Chonburi ;
+    padding-top: 100px;
+}
+#profile-name p{
+    text-align: center;
+    font-size: 30px;
+    font-family: Roboto ;
+}
+.Hobby{
+    text-align: center;
+    display: grid;
+    flex-wrap: wrap;
+    padding: 5% ;
+}
+#Hobby-topic{
+    margin: 5px;
+}
+#Hobby-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#Hobby-info img{
+    width: 150px;
+    margin: 30px;
+}
+.skill{
+    text-align: center;
+    display: grid;
+    flex-wrap: wrap;
+    padding: 5% ;
+}
+#skill-topic{
+    margin: 5px;
+}
+#skill-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#skill-info img{
+    width: 150px;
+    margin: 30px;
+}
+hr{
+    width: 40%;
+	border-top: 1.5px solid rgb(36, 4, 63);
+}
+.interest{
+    text-align: center;
+    display: grid;
+    flex-wrap: wrap;
+    padding: 5% ;
+}
+#inter-topic{
+    margin: 5px;
+}
+#inter-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#inter-info > div{
+    background-color: #ADD8FF;
+    border-radius: 20px;
+    width: 150px;
+    margin: 20px;
+    padding: 4% 0%;
+}
+.assignment{
+    text-align: center;
+    display: grid;
+    flex-wrap: wrap;
+    padding: 5% ;
+}
+#ass-topic{
+    margin: 5px;
+}
+#ass-info{
+    justify-content: center;
+    margin: auto;
+}
+#ass-info div{
+    box-shadow: 7px 6px 10px #786ce9 ;
+    width: 500px;
+    margin: 20px;
+    padding: 15% 0%;
+    font-weight: 600;
+    border-radius: 10px;
+}
+#ass-1 {
+    background-image: url("image/as5.jpg");
+    background-size: 500px;
+}
+#ass-1 :hover {
+    transform: scale(.9);
+}
+#ass-2 {
+    background-image: url("image/as4.jpg");
+    background-size: 500px;
+}
+#ass-2 :hover {
+    transform: scale(.9);
+}
+#ass-3 {
+    background-image: url("image/as3.jpg");
+    background-size: 500px;
+}
+#ass-3 :hover {
+    transform: scale(.9);
+}
+#ass-4 {
+    background-image: url("image/as2.jpg");
+    background-size: 500px;
+}
+#ass-4 :hover {
+    transform: scale(.9);
+}
+#ass-5 {
+    background-image: url("image/ass1.jpg");
+    background-size: 500px;
+}
+#ass-5 :hover {
+    transform: scale(.9);
+}
+.contact{
+    display: grid;
+    flex-wrap: wrap;
+    padding: 20px 20px 20px 50px;
+    background: linear-gradient( #9ea1ff, #6a6ee4);
+    color :#E8FFFF;
+}
+.con-topic{
+    text-align: left;
+}
+.con-face a{
+    color: #E8FFFF;
+}
+.project-topic{
+    text-align: center;
+    margin: 50px;
+}
+.Project{
+    grid-template-columns: 50% 50%;
+    display: grid;
+    padding: 5%;
+    font-family: Sarabun;
+    flex-wrap: wrap;
+}
+#pro-pic-1{
+    grid-column: 1 / span 1 ;
+    text-align: center;
+}
+#pro-pic-1 img{
+    border-radius: 20px;
+    max-width: 100%;
+    width: 670px;
+}
+#pro-info-1{
+    grid-column: 2 / span 1;
+    text-align: center;
+    margin: auto;
+    max-width: 90%;
+}
+video{
+    max-width: 100%;
+    width: 670px;
+    border-radius: 20px;
+} 
+.underline{
+    color: #a33fe6;
+    font-size: 13px;
+}
+.moreinfo{
+    text-align: right;
+}
+#pro-pic-2{
+    grid-column: 1 / span 1 ;
+    text-align: center;
+}
+#pro-info-2{
+    grid-column: 2 / span 1;
+    text-align: center;
+    margin: auto;
+    max-width: 90%;
+}
+#pro-pic-3{
+    grid-column: 1 / span 1 ;
+    text-align: center;
+}
+#pro-pic-3 img{
+    max-width: 100%;
+    border-radius: 20px;
+    width: 670px;
+}
+#pro-info-3{
+    grid-column: 2 / span 1;
+    text-align: center;
+    margin: auto;
+    max-width: 90%;
+}
+@media only screen and (max-width: 780px){
+    .profile{
+        padding: 10% 5% 5% 3%;
+    }
+    #profile-pic img{
+        width: 200px;
+    }
+    #profile-name{
+        font-size: 30px;
+        padding-top: 70px;
+    }
+    #profile-name p{
+        font-size: 20px;     
+    }
+    #Hobby-info img{
+        width: 100px;
+    }
+    #skill-info img{
+        width: 100px;
+    }
+    #inter-info > div{
+        background-color: #ADD8FF;
+        border-radius: 20px;
+        width: 150px;
+        margin: 20px;
+        padding: 4% 0%;
+    }
+    .con-topic{
+        text-align: left;
+        font-size: 10px;
+    }
+    .Project{
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+    #pro-pic-1 img{
+        width: 100%;
+        border-radius: 15px;
+    }
+    #pro-info-1{
+        grid-column: auto;
+        margin: 50px 10px;
+    }
+    video{
+        width: 500px;
+        border-radius: 15px;
+    } 
+    .underline{
+        color: #786ce9;
+        font-size: 13px;
+    }
+    .moreinfo{
+        text-align: right;
+    }
+    #pro-info-2{
+        grid-column: auto;
+        margin: 50px 10px ;
+    }
+    #pro-pic-3 img{
+        width: 500px;
+        border-radius: 15px;
+    }
+    #pro-info-3{
+        grid-column: auto;
+        margin: 50px 10px;
+    }
+}
+@media only screen and (max-width: 560px){ 
+    .navbar{
+        grid-template-columns: 50% 25% 25%;
+        font-size: 13px;
+    }
+    .profile{
+        display: grid;
+        grid-template-columns: 100%;
+        padding: 20% 5% 5% 3%;
+    }
+    #profile-pic img{
+        width: 220px;
+        text-align: center;
+    }
+    #profile-name{
+        font-size: 30px;
+        padding-top: 40px;
+    }
+    #profile-name p{
+        font-size: 20px;     
+    }
+    #ass-info div{
+        width: 300px;
+        margin: 40px;
+    }
+    #ass-1 {
+        background-size: 400px;
+    }
+    #ass-2 {
+        background-size: 400px;
+    }
+    #ass-3 {
+        background-size: 400px;
+    }
+    #ass-4 {
+        background-size: 400px;
+    }
+    #ass-5 {
+        background-size: 400px;
+    }
+    .con-topic{
+        text-align: left;
+        font-size: 10px;
+    }
+    .Project{
+        grid-template-columns: 100%;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #pro-pic-1 img{
+        width: 300px;
+        border-radius: 10px;
+    }
+    #pro-info-1{
+        grid-column: auto;
+        margin: 50px 10px;
+    }
+    video{
+        width: 300px;
+        border-radius: 10px;
+    } 
+    .underline{
+        color: #786ce9;
+        font-size: 13px;
+    }
+    .moreinfo{
+        text-align: right;
+    }
+    #pro-info-2{
+        grid-column: auto;
+        margin: 50px 10px ;
+    }
+    #pro-pic-3 img{
+        border-radius: 10px;
+        width: 300px;
+    }
+    #pro-info-3{
+        grid-column: auto;
+        margin: 50px 10px;
+    }
+}

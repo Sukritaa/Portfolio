@@ -1,0 +1,157 @@
+body{
+    background: linear-gradient( #F3FDCD,  #2FAB96 );
+    overflow: hidden;
+    font-family: Roboto;
+}
+.class-for-login{
+    margin: 12% 0% 12% 0% ;
+    font-family: Roboto;
+}
+form{
+    font-family: Roboto;
+    text-align: left;
+    margin:  auto;
+    background-color:#217C72;
+    width: 350px;
+    height: 370px;
+    border-radius: 20px;
+    color: #F3FDCD
+}
+.class-for-login legend{
+    padding: 10% 0% 5% 10%;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+.inform-box{
+    padding-left: 10%; 
+}
+.heading-username   {
+    font-size: 15px
+}
+#username {
+    width: 270px;
+    height: 30px;
+    top: 20px;
+    background: rgba(232, 232, 232, 0.22);
+    border: 1px solid #88CDAA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    margin-right: 21px;
+}
+#password {
+    width: 270px;
+    height: 30px;
+    background: rgba(232, 232, 232, 0.22);
+    border: 1px solid #88CDAA;
+    /*box-sizing: border-box;*/
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    margin-right: 21px;
+}
+.class-for-login input{
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    box-sizing: border-box;  
+    border: 2px solid #F3FDCD;
+    box-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 18.5px;
+    cursor: pointer;
+}
+#Login{
+    background: #F3FDCD;
+    margin-left: 50px; 
+}
+#Clear{
+    background: transparent;
+    color: #F3FDCD;
+    margin-left: 20px;
+}
+.Register-login{
+    text-align: center;
+    margin-top: 20px;
+    color: #88CDAA;
+}
+#register{
+    color:#F3FDCD;
+    background: transparent;
+    width: 70px;
+    height: 30px;
+    border: none;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 18.5px;
+    cursor: pointer;
+    margin-right: 30px; 
+}
+
+/*--------------------------------------*/
+.class-for-register{
+    margin: 3% 0% 3% 0% ;
+    font-family: Roboto;
+}
+.class-for-register form{
+    height: 620px;
+}
+.class-for-register legend{
+    padding: 10% 0% 5% 10%;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+.info-regis-box {
+    padding: 0% 10% 10% 10%;
+}
+span{
+    color: #ffb3b3;
+}
+.class-for-register .box{
+    width: 270px;
+    height: 20px;
+    margin-top: 20px;
+    background: rgba(232, 232, 232, 0.22);
+    border: 1px solid #88CDAA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    margin-right: 21px;
+}
+.firstname{
+    margin: 10px 0px 5px 0px;
+}
+.box-fn{
+    width: 270px;
+    height: 20px;
+    margin: 5px 21px 5px 0px;
+    background: rgba(232, 232, 232, 0.22);
+    border: 1px solid #88CDAA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+}
+.gender{
+    margin: 5px 0px 6px 0px;
+}
+.sub-re{
+    margin-top: 20px;
+}
+.sub-re input{
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    box-sizing: border-box;  
+    border: 2px solid #F3FDCD;
+    box-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 18.5px;
+    cursor: pointer;
+}
+#but-regis{ 
+    background: #F3FDCD;
+    margin-left: 50px; 
+}
+#but-reset{
+    background: transparent;
+    color: #F3FDCD;
+    margin-left: 20px;
+}
+.soure{
+    margin-left: 10px;
+}
